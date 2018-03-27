@@ -1,0 +1,226 @@
+
+* {
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif; 
+}
+.name {
+    color:#9b0909 ;
+}
+h2{
+    text-align: center;
+    color: #443355;
+
+}
+img{
+     width:100%;
+    height: auto;
+}
+#profile_pic{
+    width:100%;
+    height: auto;
+    align-content:  center;
+    border-radius: 50%;
+    max-width: 300px;
+}
+html {
+    font-size: 20px;
+}
+
+@media(max-width: 1580px) {
+  html {
+    font-size: 18px;
+  }
+  
+}
+@media(max-width: 980px) {
+  html {
+    font-size: 16px;
+  }
+}
+.left{
+    padding: 10px 10px;
+    margin: 10px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hobbies li{
+    list-style-type: disc;
+}
+
+.about{
+    background-image: url("images/paper.jpg");
+    text-align: center;
+}
+.bar{
+    background-color:#f1f1f1!important;
+    width: 100%;
+}
+.bar-green{
+    color: #fff;
+    width:95%;
+
+    float: left;
+    background-color: #4CAF50;
+    border-radius: 10%
+}
+
+
+.bar-red{
+    color: #fff;
+    width:92%;
+
+    float: left;
+    background-color: red;
+     border-radius: 10%
+}
+.bar-blue{
+    color: #fff;
+    width:85%;
+
+    float: left;
+    background-color: blue;
+     border-radius: 10%
+}
+.bar-gray{
+    color: #fff;
+    width:75%;
+
+    float: left;
+    background-color: gray;
+     border-radius: 10%
+}
+span{
+float: right
+}
+.skills{
+
+    padding: 20px;
+    background-color: #b7aaaa;
+}
+/*navbar*/
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#435 }
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:  #9b0909}
+
+ul.topnav li a.active {background-color: #000}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+/*/navbar*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin: 20px 0px;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+button{
+    height: 50px;
+    width: auto;
+    color: #fff;
+    font-size: 20px;
+    background-color: #443355;
+    margin: 10px;
+}
+
+a{
+    text-decoration:none
+}
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+/* effect-shine */
+a.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-3 {width: 25%;}
+    .col-s-6 {width: 50%;}
+    .col-s-9 {width: 75%;}
+    .works img{
+    max-width:300px;
+    height: auto;
+}
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-3 {width: 25%;}
+    .col-6 {width: 45%;}
+    .col-9 {width: 75%;}
+    .works img{
+    max-width:400px;
+    height: auto;
+}
+ 
+}
+.works{
+    border-top:2px solid #443355;
+
+}
+.contact{
+    border:2px solid #443355;
+    color: #9b0909;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #443355;
+    color: white;
+    padding: 10px;
+}
+.footer i{
+    margin: 0px 10px;   
+}
+a i{
+    float: right; color: white;
+}
+.education p{
+    font-weight: 400;
+    color: #9b0909;
+}
+.left p{
+    font-weight: 400;
+    color: #9b0909;
+}
